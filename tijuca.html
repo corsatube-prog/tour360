@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Casa na Tijuca</title>
+</head>
+
+<body class="property-page property-page--tijuca">
+  <div class="property-shell">
+    <aside class="property-drawer">
+      <a class="property-back" href="./index.html">Voltar para o imóvel atual</a>
+      <p class="property-kicker">Tijuca</p>
+      <h1>Casa no segundo andar</h1>
+      <p class="property-summary">
+        2 quartos, área externa, 100 m² e 2 lances de escada
+      </p>
+
+      <section class="property-plan-card">
+        <div class="property-plan-header">
+          <div>
+            <h2>Planta esquemática</h2>
+            <p>Clique nos pontos para navegar entre os ambientes.</p>
+          </div>
+          <span>12 panoramas</span>
+        </div>
+
+        <div id="plan-root"></div>
+      </section>
+    </aside>
+
+    <main class="property-stage">
+      <div class="property-stage-shell">
+        <div id="viewer"></div>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="./tijuca.ts"></script>
+</body>
+</html>
